@@ -25,7 +25,7 @@
         <input type="text" id="campo1" placeholder="Texto casilla 1">
         <input type="text" id="campo2" placeholder="Texto casilla 2">
         
-        <button id="btnGrabar" onclick="toggleGrabacion()">🎙️ Grabar Audio</button>
+        <button id="btnGrabar" onclick="toggleGrabacion()">🎙️️ Grabar Audio</button>
         <audio id="audioPlayback" controls style="display:none; width: 100%;"></audio>
         
         <button id="btnEnviar" onclick="enviarPeticion()">🚀 Enviar a Aplicación</button>
@@ -34,8 +34,8 @@
 
     <script>
         // CONFIGURACIÓN DE SUPABASE
-        const SUPABASE_URL = 'TU_SUPABASE_URL';
-        const SUPABASE_KEY = 'TU_SUPABASE_ANON_KEY';
+        const SUPABASE_URL = 'https://rogfrmfhvanrbrhjeyzt.supabase.co';
+        const SUPABASE_KEY = 'sb_publishable_ARmpZsdwoh_WOty-qnmOsg_abb3QoVL';
         const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
         let mediaRecorder;
